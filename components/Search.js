@@ -1,5 +1,5 @@
 var React = require('react');
-var ReactDom = require('react-dom');
+var ReactDOM = require('react-dom');
 
 var Search = React.createClass({
     getInitialState() {
@@ -15,7 +15,7 @@ var Search = React.createClass({
 
         this.props.onSearch(this.state.value);
 
-        ReactDom.findDOMNode(this).querySelector('input').blur();
+        ReactDOM.findDOMNode(this).querySelector('input').blur();
     },
 
     render() {
