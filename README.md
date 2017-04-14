@@ -4,6 +4,14 @@ This app features an input field that uses the GMaps library to search for an en
 
 I followed the tutorial found [here](http://tutorialzine.com/2015/04/first-webapp-react/?utm_source=ActiveCampaign&utm_medium=email&utm_content=Advanced+Beginner+Challenge%3A+JavaScript+Day+12&utm_campaign=JS+Day+12).
 
+## How to use
+
+```bash
+git clone https://github.com/logicalhash/react-web-app-location-search.git react-web-location-search
+cd react-web-location-search
+npm install
+```
+
 # Changes
 
 ## assets/styles.css
@@ -24,7 +32,7 @@ I added line 3 because the map height was changing with every search.
 I had to install the `react-dom` module with the following terminal command:
 
 ```bash
-npm install -s react-dom
+npm install --save react-dom
 ```
 
 to allow the use of the `findDOMNode()` and `.render()` functions required in the `Search.js` and `main.js` files:

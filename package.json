@@ -13,8 +13,11 @@
   "license": "ISC",
   "dependencies": {
     "browserify": "^14.3.0",
+    "gmaps": "^0.4.24",
+    "guid": "0.0.12",
     "moment": "^2.18.1",
     "react": "^15.5.4",
+    "react-dom": "^15.5.4",
     "reactify": "^1.1.1",
     "uglify-js": "^2.8.22",
     "watchify": "^3.9.0"
