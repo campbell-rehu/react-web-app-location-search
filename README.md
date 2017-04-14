@@ -10,6 +10,8 @@ I followed the tutorial found [here](http://tutorialzine.com/2015/04/first-webap
 git clone https://github.com/logicalhash/react-web-app-location-search.git react-web-location-search
 cd react-web-location-search
 npm install
+npm run build
+# Open the Index.html file
 ```
 
 # Changes
